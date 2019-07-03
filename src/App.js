@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Clock from './Clock.js'
+import MyComponent from './MyComponent';
 
 const name = "Ruphine"
 function App() {
@@ -14,7 +15,10 @@ function App() {
        </div>
 
        <Clock />
-
+       <p className="MyComponent">
+       <MyComponent/>
+       </p>
+        
         <a
           className="App-link"
           href="https://reactjs.org"
