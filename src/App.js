@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Clock from './Clock.js'
 import MyComponent from './MyComponent';
+import ColoredBlock from './ColoredBlock';
 
 const name = "Ruphine"
 function App() {
@@ -17,6 +18,10 @@ function App() {
        <Clock />
        <p className="MyComponent">
        <MyComponent/>
+       </p>
+
+       <p className="ColoredBlock">
+       <ColoredBlock/>
        </p>
         
         <a
